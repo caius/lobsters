@@ -5,7 +5,7 @@ gem "rails"
 # database and caching
 gem "solid_cache"
 gem "sqlite3"
-gem "trilogy"
+gem "pg"
 
 # jobs
 gem "solid_queue"

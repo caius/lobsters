@@ -234,6 +234,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
+    pg (1.5.9)
     pp (0.6.2)
       prettyprint
     prettyprint (0.2.0)
@@ -417,7 +418,6 @@ GEM
     svg-graph (2.2.2)
     thor (1.3.2)
     timeout (0.4.3)
-    trilogy (2.9.0)
     ttfunk (1.8.0)
       bigdecimal (~> 3.1)
     turbo-rails (2.0.11)
@@ -483,6 +483,7 @@ DEPENDENCIES
   oauth
   parslet
   pdf-reader
+  pg
   prism
   propshaft
   prosopite
@@ -511,7 +512,6 @@ DEPENDENCIES
   standard-rails
   super_diff
   svg-graph
-  trilogy
   typeid
   vcr
   webmock
